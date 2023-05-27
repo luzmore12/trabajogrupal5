@@ -1,6 +1,6 @@
 function Header() {
     return <>
-        <h1>Naturaleza en petalos</h1>
+        <h1>Naturaleza en Petalos</h1>
        
     </>
 }
