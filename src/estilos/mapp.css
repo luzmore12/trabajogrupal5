@@ -1,0 +1,25 @@
+.mapp {
+    height:120px;   
+     display: grid;    
+     grid-template-columns: 20% 80%;
+     align-items: center;
+     background-color: #f3d4d4;
+     
+     
+   }
+   .leftsectionmapp {
+     display: grid; 
+     grid-template-rows: auto auto;
+    }
+    .navfiltrado{
+        display: grid; 
+    }
+    .navordenar{
+        display: grid;   
+    }
+ 
+   .rightsectionmapp{
+     display: grid;
+     align-items: initial ;   
+    }
+  
