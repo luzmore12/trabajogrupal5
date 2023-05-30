@@ -1,0 +1,27 @@
+.mainindex{
+    grid-template-rows: auto auto auto auto auto;
+     background-color: #f3d4d4;
+   
+     
+     
+   }
+   .firstsection {
+    align-items: center;     
+     justify-content: center;
+     display: grid;  
+     
+   }
+   
+   .secondsection {
+     display:grid;
+     align-items: center;     
+     justify-content: center;     
+    }   
+  
+   .thirdsection{
+     display: grid;
+     align-items: center;     
+     justify-content: center;
+     
+   }
+  

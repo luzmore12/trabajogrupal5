@@ -1,0 +1,31 @@
+.footer {
+    height:120px;   
+     display: grid;    
+     grid-template-columns: 20% 60% 20%;
+     align-items: center;
+     background-color: #131313;
+   
+     
+     
+   }
+   .leftsectionfooter {
+    display: grid;  
+     
+   }
+   
+   .centerfooter {
+     display:grid;
+     align-items: center;
+     color: aliceblue;
+     
+     justify-content: center;
+     
+    }
+   
+  
+   .rightsectionfooter{
+     display: grid;
+     align-items: initial ;   
+     
+   }
+  

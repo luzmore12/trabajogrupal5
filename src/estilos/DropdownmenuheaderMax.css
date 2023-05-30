@@ -1,0 +1,20 @@
+.btn-pink {
+    background-color: rgba(255, 192, 203, 0.062);
+    color: rgb(212, 112, 129);
+  }
+  
+  .btn-pink:hover {
+    background-color: pink;
+    color: rgb(255, 255, 255);
+  }
+  
+  .dropdown-menu {
+    display: none;
+    
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+    
+  }
+  
