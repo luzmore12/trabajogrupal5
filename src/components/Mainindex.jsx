@@ -1,28 +1,26 @@
-import React from 'react'
+import React from 'react';
+import Slider from './ImageSliderm1';
+import SocialButtons from './botonredes';
+
+
+
+
+
+
 function Mainindex() {
-    return <>
-        <div class='mainindex'>
-            <div class="firstsection">                        
-              <p>publicidad </p>
-            </div>
-            <div class="secondsection">  
-            <p>mejores ventas </p>       
-             </div>
-             <div class="thirdsection"> 
-             <p>Fechas cercanas</p>        
-             </div>
-             <div class="thirdsection"> 
-             <p>Fechas cercanas</p>        
-             </div>
-             <div class="thirdsection"> 
-             <p>Fechas cercanas</p>        
-             </div>
-           
-            </div>
-            
-       
-
-
-    </>
+  return (
+    <div className='mainindex'>
+      <div className="firstsection">                        
+        < Slider/>
+      </div>
+      <div className="secondsection">
+        <SocialButtons/>  
+               
+      </div>
+               
+    
+    </div>
+  );
 }
+
 export default Mainindex;

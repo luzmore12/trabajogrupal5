@@ -24,11 +24,11 @@ function DropdownMenu() {
       </button>
       {isDropdownOpen && (
         <ul className="dropdown-menu">
-          <li><a href="#"><i className="fa fa-pencil fa-fw"></i> Edit</a></li>
-          <li><a href="#"><i className="fa fa-trash-o fa-fw"></i> Delete</a></li>
-          <li><a href="#"><i className="fa fa-ban fa-fw"></i> Ban</a></li>
+          <li href="#"><i className="fa fa-pencil fa-fw"></i> Edit</li>
+          <li href="#"><i className="fa fa-trash-o fa-fw"></i> Delete</li>
+          <li href="#"><i className="fa fa-ban fa-fw"></i> Ban</li>
           <li className="divider"></li>
-          <li><a href="#"><i className="fa fa-unlock"></i> Make admin</a></li>
+          <li href="#"><i className="fa fa-unlock"></i> Make admin</li>
         </ul>
       )}
     </div>

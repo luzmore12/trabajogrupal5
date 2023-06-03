@@ -1,0 +1,55 @@
+.tf {
+  height: 120px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+  background-color: #f4f3f3;
+  margin-top: 190px; 
+}
+
+.leftsectiontf {
+  display: grid;
+  grid-template-rows: auto auto;
+  background-color: #f4f3f3;
+}
+
+.navfiltradtf {  
+  display: grid;
+}
+
+.navordenartf {
+  display: grid;
+}
+
+.rightsectiontf {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  background-color: #f4f3f3;
+  padding: 10px;
+  align-items: center;
+}
+
+.conttf {
+  display: grid;
+  grid-template-rows: auto auto;
+  place-items: center; 
+  background-color: #f3d4d4;
+  border: 1px solid #942f2f00;
+  border-radius: 10%;
+  align-items: center;
+}
+
+.imagetf {
+  display: grid;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  padding: 10px;
+}
+
+.texttf {
+  text-align: center;
+  font-size: 20px;
+}

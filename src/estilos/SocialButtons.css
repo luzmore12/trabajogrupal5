@@ -1,0 +1,22 @@
+.containredes {
+  display: flex;
+  justify-content: center;
+}
+
+.columnredes {
+  margin: 10px;
+}
+
+.social-button {
+  --button-size: 90px; /* Define el tamaño del botón aquí */
+  width: var(--button-size);
+  height: var(--button-size);
+  background-color: pink;
+  border: none;
+  border-radius: 50%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

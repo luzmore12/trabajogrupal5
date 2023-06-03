@@ -4,7 +4,7 @@ function SearchBar() {
   const [searchTerm, setSearchTerm] = useState('');
 
   const handleSearch = () => {
-    //accion para redirigir
+
     console.log('Búsqueda realizada:', searchTerm);
   };
 
@@ -18,7 +18,7 @@ function SearchBar() {
         className="search-input"
       />
       <button onClick={handleSearch} className="search-button">
-      <i class="fa fa-search" aria-hidden="true"></i>
+      <i className="fa fa-search" aria-hidden="true"></i>
       </button>
     </div>
   );

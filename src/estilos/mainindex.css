@@ -1,6 +1,7 @@
 .mainindex{
-    grid-template-rows: auto auto auto auto auto;
-     background-color: #f3d4d4;
+    grid-template-rows: auto auto ;
+     background-color: #f4f3f3;
+     margin-top: 180px; 
    
      
      
@@ -15,13 +16,9 @@
    .secondsection {
      display:grid;
      align-items: center;     
-     justify-content: center;     
+     justify-content: center;
+     padding: 200px;     
     }   
   
-   .thirdsection{
-     display: grid;
-     align-items: center;     
-     justify-content: center;
-     
-   }
+   
   

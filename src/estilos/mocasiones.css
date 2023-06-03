@@ -1,0 +1,25 @@
+.mocasiones {
+    height:120px;   
+     display: grid;    
+     grid-template-columns: 20% 80%;
+     align-items: center;
+     background-color: #f4f3f3;
+     margin-top: 190px;
+     
+   }
+   .leftsectionmocasiones {
+     display: grid; 
+     grid-template-rows: auto auto;
+    }
+    .navfiltrado{
+        display: grid; 
+    }
+    .navordenar{
+        display: grid;   
+    }
+ 
+   .rightsectionmocasiones{
+     display: grid;
+     align-items: initial ;
+     background-color: #f4f3f3;   
+    }

@@ -1,26 +1,25 @@
 import { useState } from 'react'
-import './components/Header.jsx'
-import './styles.css'
 
-import Header from './components/Header.jsx'
-import Banner from './components/Banner.jsx'
-import Mapp from './components/Mapp.jsx'
-import Footer from './components/Footer.jsx'
+import '../styles.css'
+
+import Header from '../components/Header.jsx'
 
 
+import Mtipodeflor from '../components/Mtiposdeflores.jsx'
+import Footer from '../components/Footer'
 
-
-
-function App() {
+function TipoDeFlor() {
   const [count, setCount] = useState(0)
   return (<>
     <Header/>    
-    <Banner/>
-    <Mapp/>
-    <Footer/>     
+
+    <Mtipodeflor/>
+    
+    <Footer/>
+       
       
     </>
   )
 }
 
-export default App
+export default TipoDeFlor;
